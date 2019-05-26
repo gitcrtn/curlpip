@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+SH=$(realpath $0)
+ROOTDIR=$(dirname $SH)/..
+python3 $ROOTDIR/scripts/curlpip.py $@
